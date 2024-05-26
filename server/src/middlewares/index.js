@@ -5,7 +5,7 @@ const checkAuth = require("./checkAuth");
 
 const middlewares = express.Router();
 const middlewareCredentials = {
-  origin: true,
+  origin: "*",
   credentials: true,
 };
 

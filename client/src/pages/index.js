@@ -1,1 +1,7 @@
-// Import the pages and re-export them from this index.js file
+import React from "react";
+
+const Pages = () => {
+  return <></>;
+};
+
+export default Pages;
